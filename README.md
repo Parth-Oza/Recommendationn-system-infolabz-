@@ -40,3 +40,48 @@ jupyter notebook amazon_recommendation_system.ipynb
 Or run as Python script:
 bash
 python recommendation_system.py
+
+Run the Analysis
+bash
+jupyter notebook amazon_recommendation_system.ipynb
+Or run as Python script:
+bash
+python recommendation_system.py
+Project Structure
+text
+amazon-beauty-recommender/
+├── README.md
+├── requirements.txt
+├── amazon_recommendation_system.ipynb
+├── recommendation_system.py
+├── config.py
+├── utils.py
+├── data_processor.py
+├── recommender.py
+├── tests/
+│   ├── test_data_processor.py
+│   └── test_recommender.py
+└── notebooks/
+    └── exploratory_analysis.ipynb
+Results
+The system successfully:
+
+Identified top 10 most popular beauty products (e.g., B001MA0QY2 with 7,533 ratings)
+
+Generated personalized recommendations based on user purchase patterns
+
+Used SVD to handle sparse data and find latent patterns in user preferences
+
+Technologies Used
+Python 3.8+
+
+Pandas & NumPy for data manipulation
+
+Scikit-learn for SVD implementation
+
+Matplotlib for data visualization
+
+Jupyter Notebooks for interactive analysis
+
+Author
+Developed during internship at InfoLabz Company
