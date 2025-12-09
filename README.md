@@ -33,3 +33,10 @@ This project implements a collaborative filtering recommendation system for Amaz
 ### Prerequisites
 ```bash
 pip install -r requirements.txt
+
+Run the Analysis
+bash
+jupyter notebook amazon_recommendation_system.ipynb
+Or run as Python script:
+bash
+python recommendation_system.py
